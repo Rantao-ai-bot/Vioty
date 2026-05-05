@@ -19,6 +19,12 @@ body {
 }
 
 /* header */
+.hero .container {
+display: flex;
+gap: 73px;
+align-items: center;
+}
+
 .header {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -62,4 +68,100 @@ line-height: normal;
 .header-img {
     width: 15px;
     height: 15px;
+}
+
+/* HERO */
+.hero-text {
+align-self: stretch;
+color: var(--main-color);
+font-family: Manrope;
+font-size: 14px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.4px;
+margin-bottom: 20px;
+}
+
+.hero-title{
+align-self: stretch;
+color: var(--main-color);
+font-family: Alexandria;
+font-size: 57.33px;
+font-style: normal;
+font-weight: 400;
+line-height: 94%;
+letter-spacing: -4.013px;
+opacity: 0.9;
+width: 587.0px;
+margin-bottom: 16px;
+}
+
+.hero-span {
+    color: var(--acsent-color);
+}
+
+.hero-desk {
+color: var(--main-color);
+font-family: Manrope;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+opacity: 0.6;
+margin-bottom: 48px;
+width: 578,0px;
+}
+
+.hero-button {
+    color: var(--main-color);
+    display: flex;
+padding: 13px 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+background-color: var(--acsent-color);
+}
+
+/* about */
+.about {
+    padding-top: 129px;
+    padding-bottom: 105px;
+}
+
+.about .container {
+    position: relative;
+}
+
+.about-text {
+color: var(--main-color);
+text-align: center;
+font-family: Alexandria;
+font-size: 57.33px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: -4.013px;
+opacity: 0.9;
+}
+
+.about-span {
+    color: var(--sociol-bg);
+}
+
+
+.about-milk {
+position: absolute;
+left: 40px;
+top: 100px;
+}
+
+.about-pistachion {
+position: absolute;
+top: -50px;
+right: 130px;
+}
+
+.about-strawberry {
+position: absolute;
+bottom: -50px;
+left: 50%;
 }
