@@ -570,3 +570,45 @@ line-height: normal;
 
 
 
+/* ================= Декоративна лінія ================= */
+
+.product-title {
+    position: relative;
+    display: inline-block;
+}
+
+.product-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 3px;
+    background: #D23166;
+}
+
+/* ================= Анімація Hero ================= */
+
+.hero-title,
+.hero-text,
+.hero-desk,
+.hero-button,
+.hero-img {
+    animation: heroShow 1s ease forwards;
+}
+
+.hero-img {
+    animation-delay: .3s;
+}
+
+@keyframes heroShow {
+    0% {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
